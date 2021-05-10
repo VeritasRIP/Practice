@@ -1,11 +1,10 @@
 ---
+---
 <script src="//yihui.org/js/math-code.js"></script>
 <!-- Just one possible MathJax CDN below. You may use others. -->
 <script async
   src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
-
----
 <h1 id="similarity-bw-scm-and-flow-model">Similarity b/w SCM and Flow model</h1>
 <p>시작: 되게 단순한 접근, definition of SCM:<br>
 <span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msub><mi>x</mi><mi>j</mi></msub><mo>=</mo><msub><mi>f</mi><mi>j</mi></msub><mo stretchy="false">(</mo><mi>p</mi><msub><mi>a</mi><mi>j</mi></msub><mo separator="true">,</mo><msub><mi>n</mi><mi>j</mi></msub><mo stretchy="false">)</mo><mo separator="true">,</mo><mi>j</mi><mo>=</mo><mn>1</mn><mo separator="true">,</mo><mn>2</mn><mo separator="true">,</mo><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mi>d</mi><mo separator="true">,</mo><mi>p</mi><msub><mi>a</mi><mi>j</mi></msub><mo>⊥</mo> ⁣ ⁣ ⁣<mo>⊥</mo><msub><mi>n</mi><mi>j</mi></msub></mrow><annotation encoding="application/x-tex">
