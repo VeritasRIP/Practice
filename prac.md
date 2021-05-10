@@ -2,6 +2,9 @@
 
 
 ---
+<script type="text/javascript" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
+</script>
 
 <h1 id="similarity-bw-scm-and-flow-model">Similarity b/w SCM and Flow model</h1>
 <p>시작: 되게 단순한 접근, definition of SCM:<br>
