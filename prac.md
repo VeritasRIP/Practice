@@ -1,5 +1,31 @@
+<!-- ./_includes/mathjax_support -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    },
+    tex2jax: {
+      inlineMath: [ ['$','$'], ['\(', '\)'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
-<script src="//yihui.org/js/math-code.js">
+<head>
+  <!-- raw 를 이용해 Liquid Syntax 를 Markdown 문에서 보일 수 있다.  -->
+  
+  {% if page.use_math %}
+    {% include mathjax_support %}
+  {% endif %}
+  
+</head>
+
 <h1 id="아니-시팔-이거-수식-렌더링밖에-답-없는거임">아니 시팔 이거 수식 렌더링밖에 답 없는거임??</h1>
 <h1 id="similarity-bw-scm-and-flow-model">Similarity b/w SCM and Flow model</h1>
 <p>시작: 되게 단순한 접근, definition of SCM:<br>
@@ -61,5 +87,5 @@ S_i=f_i(pa_i,U_i),  i=1,2,...n  \ \ \  pa_i \perp\!\!\!\perp U_i
 <p>그리고  Flow model의  2) property로 부터 얻게 되는 counterfactual queries가 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>S</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">S_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.311664em;"><span class="" style="top: -2.55em; margin-left: -0.05764em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span>들을 추출 혹은 그 추출법을 학습하는데 있어 도움이 될 수 있지 않을까 생각해봄 (참조: # Structured Representation Learning using Structural Autoencoders and Hybridization <a href="https://arxiv.org/abs/2006.07796">https://arxiv.org/abs/2006.07796</a> || 이 논문에서 <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>S</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">S_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.83333em; vertical-align: -0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.311664em;"><span class="" style="top: -2.55em; margin-left: -0.05764em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.15em;"><span class=""></span></span></span></span></span></span></span></span></span></span> 추출 학습을 하는데 있어 “억지” intervention을 가하게 되는데, 이를 counterfactual 로 대체할 수 있을지도)</p>
 <h1 id="개-날먹-보고서-ㅈㅅ">개 날먹 보고서 ㅈㅅ</h1>
 <p>원래 주말에 논문 떨어지고 그 빡침을 양분삼아 논문 ㅈㄴ 보려했으나 말도안되게 붙어버려서 술쳐먹음 ㅈㅅㅈㅅ. 글구 몬헌이 생각보다 잼있더라</p>
-</script>
+
 
